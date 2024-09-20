@@ -1,1 +1,1 @@
-web: python manage.py migrate && gunicorn activos_tic.wsgi
+web: gunicorn activos_tic.wsgi
